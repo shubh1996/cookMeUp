@@ -23,3 +23,4 @@ class dish(models.Model):
     procedure = models.TextField()
     def __str__(self):
         return '%s'%(self.name_of_dish)
+    
